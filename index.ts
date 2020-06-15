@@ -70,7 +70,7 @@ class Startup {
             await helper.close();
         });
 
-    }
+    } 
 
     async convertImageToText(imageName: string): Promise<string> {
         const worker = createWorker({

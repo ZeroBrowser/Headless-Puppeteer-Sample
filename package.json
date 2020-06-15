@@ -1,0 +1,28 @@
+{
+    "name": "0browser-page-change-detector",
+    "version": "1.0.0",
+    "description": "Lets detect changes in two different pages using Puppeteer and OpenCV",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "tsc": "tsc -p tsconfig.json"
+    },
+    "keywords": [],
+    "author": "0Browser",
+    "license": "ISC",
+    "dependencies": {
+        "@google-cloud/vision": "^2.0.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "node-cron": "^2.0.3",
+        "puppeteer-core": "^3.2.0",
+        "tesseract.js": "^2.1.1"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.6",
+        "@types/jsdom": "^16.2.3",
+        "@types/node-cron": "^2.0.3",
+        "@types/puppeteer": "^3.0.0",
+        "typescript": "^3.9.3"
+    }
+}

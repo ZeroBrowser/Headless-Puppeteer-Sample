@@ -68,7 +68,7 @@ export class Helper {
         });
     }
 
-    async close() {
+    async closeBrowser() {
         await this.browser.close();
     }
 }

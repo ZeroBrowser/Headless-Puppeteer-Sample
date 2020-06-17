@@ -14,7 +14,7 @@
         "@google-cloud/vision": "^2.1.0",
         "express": "^4.17.1",
         "node-cron": "^2.0.3",
-        "puppeteer-core": "^4.0.0",
+        "puppeteer-core": "^4.0.0"
     },
     "devDependencies": {
         "@types/express": "^4.17.6",

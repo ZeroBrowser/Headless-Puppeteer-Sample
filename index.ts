@@ -24,11 +24,11 @@ class Startup {
         );
 
         this.corporateUrls = new Array<any>(
-            { 'name': "tesla-corp", 'url': "https://www.tesla.com" },
-            { 'name': "microsoft-corp", 'url': "https://www.microsoft.com/en-us" },
+            //{ 'name': "tesla-corp", 'url': "https://www.tesla.com" },
+            //{ 'name': "microsoft-corp", 'url': "https://www.microsoft.com/en-us" },
             { 'name': "amazon-corp", 'url': "https://www.amazon.com" }
-            { 'name': "chevron-corp", 'url': "https://www.chevron.com" },
-            { 'name': "ford-corp", 'url': "https://www.ford.com" }
+            //{ 'name': "chevron-corp", 'url': "https://www.chevron.com" },
+            //{ 'name': "ford-corp", 'url': "https://www.ford.com" }
         );
 
         //create a Google Vision Client
@@ -80,7 +80,7 @@ class Startup {
         let currentItem = urls[index];
         let title = `${currentItem['name']}`;
         let url = currentItem['url'];
-        let imageName = `${title}.png`;
+        let imageName = `${title}.jpg`;
         let text = '';
 
         try {
@@ -118,8 +118,8 @@ class Startup {
         //a little delay for heavy websites like Tesla!
         await this.helper.delay(5000);
 
-        //take full page so we can see everything
-        await page.screenshot({ path: imageName, fullPage: true });
+        //take full page so we can see everything        
+        await this.helper.elementScreenshot("body", imageName);
 
         //clean up and close page
         await page.close();

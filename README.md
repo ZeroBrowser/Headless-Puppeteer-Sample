@@ -1,8 +1,8 @@
-# 0Browser-Visual-Testing
+# 0Browser-Black-Life-Matters
 
-simple Visual test example using 0Browser and Headless Browser + Puppeteer!
+Using 0Browser/Headless Browser + Puppeteer to analyse Corporate websites.
 
-Find the full story [here](https://www.0browser.com/blogs/how-to-find-toilet-papers-using-headless-browsers.html)
+Find the full story [here](https://www.0browser.com/blogs/.html)
 
 ## Prerequisites
 Get a free API Token from [0Borwser here](https://www.0browser.com/docs/get-token.html) 

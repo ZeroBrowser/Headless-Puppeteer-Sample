@@ -1,7 +1,7 @@
 {
-    "name": "0browser-page-change-detector",
+    "name": "0browser-black-life-matters",
     "version": "1.0.0",
-    "description": "Lets detect changes in two different pages using Puppeteer and OpenCV",
+    "description": "Lets detect changes in two different pages using Puppeteer and Google Vision API",
     "main": "index.js",
     "scripts": {
         "start": "node index",
@@ -11,11 +11,11 @@
     "author": "0Browser",
     "license": "ISC",
     "dependencies": {
-        "@google-cloud/vision": "^2.0.0",
+        "@google-cloud/vision": "^2.1.0",
         "cors": "^2.8.5",
         "express": "^4.17.1",
         "node-cron": "^2.0.3",
-        "puppeteer-core": "^3.2.0",
+        "puppeteer-core": "^4.0.0",
         "tesseract.js": "^2.1.1"
     },
     "devDependencies": {

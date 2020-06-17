@@ -1,0 +1,50 @@
+[
+	{
+		"title": "ford-blog",
+		"url": "https://media.ford.com/content/fordmedia/fna/us/en/news.html",
+		"totalCovidPhrasesFound": 3,
+		"totalBLMPhrasesFound": 0
+	},
+	{
+		"title": "chevron-blog",
+		"url": "https://www.chevron.com/stories",
+		"totalCovidPhrasesFound": 2,
+		"totalBLMPhrasesFound": 3
+	},
+	{
+		"title": "amazon-blog",
+		"url": "https://aws.amazon.com/blogs",
+		"totalCovidPhrasesFound": 0,
+		"totalBLMPhrasesFound": 0
+	},
+	{
+		"title": "google-blog",
+		"url": "https://www.blog.google",
+		"totalCovidPhrasesFound": 1,
+		"totalBLMPhrasesFound": 0
+	},
+	{
+		"title": "chase-blog",
+		"url": "https://www.chase.com/news",
+		"totalCovidPhrasesFound": 0,
+		"totalBLMPhrasesFound": 0
+	},
+	{
+		"title": "coca-cola-blog",
+		"url": "https://www.coca-colacompany.com/news",
+		"totalCovidPhrasesFound": 0,
+		"totalBLMPhrasesFound": 0
+	},
+	{
+		"title": "tesla-blog",
+		"url": "https://www.tesla.com/blog",
+		"totalCovidPhrasesFound": 1,
+		"totalBLMPhrasesFound": 0
+	},
+	{
+		"title": "microsoft-blog",
+		"url": "https://techcommunity.microsoft.com/t5/custom/page/page-id/Blogs",
+		"totalCovidPhrasesFound": 0,
+		"totalBLMPhrasesFound": 0
+	}
+]

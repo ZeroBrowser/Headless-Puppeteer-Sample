@@ -2,7 +2,7 @@
 
 Using 0Browser/Headless Browser + Puppeteer to analyse Corporate websites.
 
-Find the full story [here](https://www.0browser.com/blogs/.html)
+Find the full story [here](https://www.0browser.com/blogs/how-to-measure-corporate-america-reaction-to-blm-using-headless-browsers.html)
 
 ## Prerequisites
 Get a free API Token from [0Borwser here](https://www.0browser.com/docs/get-token.html) 

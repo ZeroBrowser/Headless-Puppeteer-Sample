@@ -1,4 +1,4 @@
-# 0Browser-Black-Lives-Matters
+# 0Browser-Black-Lives-Matter
 
 Using 0Browser/Headless Browser + Puppeteer to analyse Corporate websites.
 

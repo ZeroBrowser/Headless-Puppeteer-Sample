@@ -25,7 +25,7 @@ class Startup {
         this.corporateUrls = new Array<any>(
             { 'name': "tesla-corp", 'url': "https://www.tesla.com" },
             { 'name': "microsoft-corp", 'url': "https://www.microsoft.com/en-us" },
-            //{ 'name': "amazon-corp", 'url': "https://www.amazon.com" },               //some issues with amazon
+            { 'name': "amazon-corp", 'url': "https://www.amazon.com" },               
             { 'name': "chevron-corp", 'url': "https://www.chevron.com" },
             { 'name': "ford-corp", 'url': "https://www.ford.com" }
         );
@@ -131,8 +131,6 @@ class Startup {
         });
         return total;
     }
-
-
 }
 
 //start the app

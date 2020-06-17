@@ -26,7 +26,7 @@ class Startup {
         this.corporateUrls = new Array<any>(
             { 'name': "tesla-corp", 'url': "https://www.tesla.com" },
             { 'name': "microsoft-corp", 'url': "https://www.microsoft.com/en-us" },
-            { 'name': "amazon-corp", 'url': "https://www.amazon.com" },
+            { 'name': "amazon-corp", 'url': "https://www.amazon.com" }
             { 'name': "chevron-corp", 'url': "https://www.chevron.com" },
             { 'name': "ford-corp", 'url': "https://www.ford.com" }
         );
@@ -74,7 +74,7 @@ class Startup {
     async analyseSites(index, urls: Array<string>, results: Array<any>) {
 
         //we have scanned all urls
-        if (index == urls.length)
+        if (index >= urls.length)
             return;
 
         let currentItem = urls[index];

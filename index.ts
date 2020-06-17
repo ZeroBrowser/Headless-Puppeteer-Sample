@@ -77,14 +77,15 @@ class Startup {
         if (index == urls.length)
             return;
 
-        let url = urls[index];
-        let title = `${url['name']}`;
+        let currentItem = urls[index];
+        let title = `${currentItem['name']}`;
+        let url = currentItem['url'];
         let imageName = `${title}.png`;
         let text = '';
 
         try {
             //take screenshot
-            await this.takeScreenshot(url['url'], imageName);
+            await this.takeScreenshot(url, imageName);
 
             //use Google Vision ML to process screenshots
             text = await this.convertImageToTextWithGoogleVision(imageName);
@@ -94,7 +95,7 @@ class Startup {
             await this.analyseSites(++index, urls, results);
         }
 
-        const result = this.keywordCount(text, title, url['url']);
+        const result = this.keywordCount(text, title, url);
         results.push(result);
 
         //recursive call

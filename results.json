@@ -1,0 +1,32 @@
+[
+	{
+		"title": "tesla-corp",
+		"url": "https://www.tesla.com",
+		"totalCovidPhrasesFound": 0,
+		"totalBLMPhrasesFound": 0
+	},
+	{
+		"title": "microsoft-corp",
+		"url": "https://www.microsoft.com/en-us",
+		"totalCovidPhrasesFound": 2,
+		"totalBLMPhrasesFound": 3
+	},
+	{
+		"title": "amazon-corp",
+		"url": "https://www.amazon.com",
+		"totalCovidPhrasesFound": 1,
+		"totalBLMPhrasesFound": 2
+	},
+	{
+		"title": "chevron-corp",
+		"url": "https://www.chevron.com",
+		"totalCovidPhrasesFound": 2,
+		"totalBLMPhrasesFound": 3
+	},
+	{
+		"title": "ford-corp",
+		"url": "https://www.ford.com",
+		"totalCovidPhrasesFound": 1,
+		"totalBLMPhrasesFound": 0
+	}
+]

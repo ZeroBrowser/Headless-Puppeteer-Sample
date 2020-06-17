@@ -115,9 +115,6 @@ class Startup {
 
         let page = await this.helper.goto(url);
 
-        //a little delay for heavy websites like Tesla!
-        await this.helper.delay(5000);
-
         //take full page so we can see everything        
         await this.helper.elementScreenshot("body", imageName);
 

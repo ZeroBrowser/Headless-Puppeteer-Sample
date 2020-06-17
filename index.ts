@@ -34,7 +34,7 @@ class Startup {
 
     public async main() {
 
-        await this.helper.init("bdf6f769-e350-45b5-9650-6ea8c9bda5be");
+        await this.helper.init("Your 0Browser Token Here");
 
         // Creates a client
         const client = new vision.ImageAnnotatorClient();
@@ -68,6 +68,7 @@ class Startup {
 
             let page = await this.helper.goto(url['url']);
 
+            //a little delay for heavy websites like Tesla!
             await this.helper.delay(5000);
 
             await page.screenshot({ path: imageName, fullPage: true });

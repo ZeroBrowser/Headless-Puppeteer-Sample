@@ -4,9 +4,5 @@
 4. npm i @types/express --save-dev
 5. npm i express -save
 6. npm i node-cron -save
-7. npm i @types/node-cron 
-8. npm i cors -save
-9. npm i tesseract.js -save
-
-export GOOGLE_APPLICATION_CREDENTIALS="/Users/rahabmohebbi/Downloads/persianmeetup-8706605fe996.json"
-echo $GOOGLE_APPLICATION_CREDENTIALS
+7. npm i @types/node-cron --save-dev
+8. npm i @google-cloud/vision -save
